@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Booking
+        </title>
+       <link rel="stylesheet" href="style.css" />
+       <script  src="result.js"></script>
+        <style>
+              body {
+            background-image: url("viewhotel.jpg");
+            background-size:100%;
+        
+        
+            background-repeat: no-repeat;
+        }
+        .table{
+            padding: 20px;
+            background-color: rgba(95, 3, 3, 0.808);
+            width: 800px;
+            opacity: 0.6;
+            font-size:larger;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="centered" style="font-size: 40px;">Maria Hotel</div>
+        <div class="table" style="text-align: center;">
+            <form style="border: rgb(65, 18, 4);">
+                <header>
+                    <center><b>Room Booking</b></center>
+                </header>
+                <a style="color: rgb(226, 225, 238);">From-Date<input type="date" name="fromdate" id="fromdate"></a>
+                <a style="color: aliceblue;">To-Date<input type="date" name="todate" id="todate"></a>
+                <br><br><br>
+                <a style="color: aliceblue;">Purpose <input type="text" name="Purpose" id="purpose"></a>
+                <a style="color: aliceblue;">Number of people expected <input type="text" name="people" id="peoples"></a><br><br><br>
+                <a style="color: aliceblue;">Employee Id <input type="text" name="Id" class=floatLabel name="EmployeeId" id="employeeid"></a>
+                <label for="EmployeeId" style="color: aliceblue;">Employee Id</label>
+                <a style="color: aliceblue;">Mobile Number <input type="tel" name="Mobile"></a><br><br><br>
+        
+                <label for="rooms" style="color: aliceblue;">Room Type:</label>
+                <select name="rooms" id="rooms">
+                    <option value="Deluxe">Deluxe</option>
+                    <option value="Super Deluxe">Super Deluxe</option>
+                    <option value="Executive Suite">Executive Suite</option>
+                    <option value="Villa">Villa</option>
+                </select>
+                <a style="color: aliceblue;">Duration <input type="text" name="duration"></a><br><br><br>
+                <input type="checkbox" style="color: aliceblue;">Accept terms & conditions**.
+        
+                <!-- <input type="submit" style="color:darkred; border: darkgreen;" value="Book Room"> -->
+                <footer>
+                    <input type="button" value="Book Room" onclick="roomBooking()">
+                    <input type="reset" value="Reset">
+                </footer>
+            </form>
+        </div>
+
+        <table id="show" border="3" style="color: rgb(235, 201, 205);" style="border-color: cornsilk;">
+            <tr>
+                <th>From Date</th>
+                <th>To Date</th>
+                <th>Purpose</th>
+               
+               
+                <!-- <input type="button" value="Edit">
+                <input type="button" value="Delete"> -->
+            </tr>
+
+        </table>
+        <script src="submit.js"></script>
+    </body>
+</html>

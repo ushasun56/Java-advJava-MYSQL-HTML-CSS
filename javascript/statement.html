@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--undersating the java scrpit statements,syntax and variable-->
+<html>
+<head>
+    <title>
+        statement syntac and variable
+    </title>
+</head>
+
+<body>
+    <h1>JavaScript statements</h1>
+    <p id="s"></p>
+    <p id="name"></p>
+    <p id="emp"> </p>
+    <p id="let"></p>
+    <p id="arr"></p>
+    <p id="emp1"> </p>
+
+    <script>
+        let a,b,c;
+        a=5;
+        b=10;
+        c=a*b;
+        document.getElementById("s").innerHTML = c;
+       </script> 
+       <!--we can use more script on one html program-->
+       <script>
+           var firstname,lastname;
+           firstname="usha";
+           lastname="more";
+           name=firstname+lastname;
+           document.getElementById("name").innerHTML=name;
+           
+       </script>
+       <script>
+           var employee="soham", address="pune", salary=30000.00;
+           document.getElementById("emp").innerHTML=employee + "<br>" +address+ "<br>" +salary;
+       </script>
+
+       <script>
+           var x=12
+           {
+               var x=11;
+           }
+           document.getElementById("let").innerHTML= x;
+       </script>
+       <script>
+           var car = ["volvo","odi","BMW","artica"];
+           document.writeln("my car data");
+           document.getElementById("arr").innerHTML=car.toLocaleString;
+
+       </script>
+       <script>
+           var employee = {FirstName:"Nikita" , lastname:"More" ,age:25, disignation:"Software Developer" ,salary:35000.00
+
+           };
+           document.getElementById("emp1").innerHTML= employee.FirstName+ "<br>" +employee.disignation+ "<br>"+employee.salary;
+
+       </script>
+    
+</body>
+</html>
