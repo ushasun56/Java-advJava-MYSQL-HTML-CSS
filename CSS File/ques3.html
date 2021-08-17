@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--crate table and add padding ,marging,hight,width,broder-collasp,horizontaldirvader -->
+<html>
+
+<head>
+    <title>
+        Assignment 2
+    </title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid yellow;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            /*broder-collapse use table broder collapse */
+        }
+
+        th,
+        td {
+            padding: 15px;
+            margin: 100%;
+        }
+
+        th {
+            height: 35px;
+        }
+
+        td {
+            /* text-align: center;*/
+            vertical-align: bottom;
+
+        }
+
+        div {
+            /* background-color: lightsalmon;*/
+            width: 300px;
+            border: 15px solid gray;
+            padding: 50px;
+            margin: 20px;
+
+        }
+
+        p.dotted {
+            outline-style: dotted;
+        }
+
+        hr.rounded {
+            border-top: 8px solid rgb(1, 44, 54);
+            border-radius: 5px;
+        }
+
+        tr:nth-child(even)
+         {
+            background-color: #f2f2f2;
+         }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>LastName</th>
+            <th>FirstName</th>
+            <th>Dept</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>more</td>
+            <td>Soham</td>
+            <td>IT</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>suryawanshi</td>
+            <td>Akshay</td>
+            <td>MSRTC</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>mane</td>
+            <td>priyanka</td>
+            <td>IT</td>
+
+        </tr>
+    </table>
+    <hr class="rounded">
+    <div>
+        <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins,
+            borders,
+            padding, and the actual content. ... Margin - Clears an area outside the border. The margin is transparent.
+        </p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+
+.blue{         /*. indicated the class*/
+    color:darkred;
+}
+#demo{        /*# indicated the id */
+    color:deeppink;
+}
+
+h1{         /*this line indicated the elements*/
+    color:rgb(202, 106, 27);
+}
+h1{
+    color:darkgreen;
+}
+*{    /*universal selectros*/
+    color: blue;
+}
+
+.blue,#demo,h1{    /* grouping selectrors*/
+    color:red;
+}
+

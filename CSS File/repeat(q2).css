@@ -1,0 +1,12 @@
+#repeat {
+     background-repeat: repeat; 
+}
+
+#repeat-x
+{
+    background-repeat: repeat-x;
+}
+#right{  
+    text-align: right;
+    }
+   
