@@ -1,0 +1,36 @@
+ERROR	2021-08-02 18:47:56,151	0	loggerfile.FileLog	[main]	This is error msg
+FATAL	2021-08-02 18:47:56,151	0	loggerfile.FileLog	[main]	fatal messge
+ERROR	2021-08-02 22:33:17,078	0	loggerfile.FileLog	[main]	This is error msg
+FATAL	2021-08-02 22:33:17,079	1	loggerfile.FileLog	[main]	fatal messge
+INFO	2021-08-02 22:34:17,040	0	loggerfile.FileLog	[main]	This is the log File
+WARN	2021-08-02 22:34:17,043	3	loggerfile.FileLog	[main]	This is waring msg
+ERROR	2021-08-02 22:34:17,043	3	loggerfile.FileLog	[main]	This is error msg
+DEBUG	2021-08-02 22:34:17,043	3	loggerfile.FileLog	[main]	debug msg
+FATAL	2021-08-02 22:34:17,043	3	loggerfile.FileLog	[main]	fatal messge
+INFO	2021-08-02 23:07:35,837	0	loggerfile.FileLog	[main]	Addition:30
+INFO	2021-08-02 23:07:35,846	9	loggerfile.FileLog	[main]	java.lang.ArithmeticException: / by zero
+INFO	2021-08-02 23:22:56,119	0	loggerfile.FileLog	[main]	Addition:30
+INFO	2021-08-02 23:22:56,120	1	loggerfile.FileLog	[main]	java.lang.ArithmeticException: / by zero
+INFO	2021-08-02 23:48:10,492	0	loggerfile.FileLog	[main]	Addition:30
+INFO	2021-08-02 23:48:10,498	6	loggerfile.FileLog	[main]	java.lang.ArithmeticException: / by zero
+INFO	2021-08-02 23:54:19,266	0	loggerfile.FileLog	[main]	This is the log File
+WARN	2021-08-02 23:54:19,268	2	loggerfile.FileLog	[main]	This is waring msg
+ERROR	2021-08-02 23:54:19,268	2	loggerfile.FileLog	[main]	This is error msg
+DEBUG	2021-08-02 23:54:19,268	2	loggerfile.FileLog	[main]	debug msg
+FATAL	2021-08-02 23:54:19,268	2	loggerfile.FileLog	[main]	fatal messge
+INFO	2021-08-02 23:54:19,268	2	loggerfile.FileLog	[main]	Addition:30
+INFO	2021-08-02 23:54:19,268	2	loggerfile.FileLog	[main]	java.lang.ArithmeticException: / by zero
+INFO	2021-08-03 08:36:28,939	0	loggerfile.FileLog	[main]	This is the log File
+WARN	2021-08-03 08:36:28,941	2	loggerfile.FileLog	[main]	This is waring msg
+ERROR	2021-08-03 08:36:28,941	2	loggerfile.FileLog	[main]	This is error msg
+DEBUG	2021-08-03 08:36:28,941	2	loggerfile.FileLog	[main]	debug msg
+FATAL	2021-08-03 08:36:28,941	2	loggerfile.FileLog	[main]	fatal messge
+INFO	2021-08-03 08:36:28,941	2	loggerfile.FileLog	[main]	Addition:30
+INFO	2021-08-03 08:36:28,941	2	loggerfile.FileLog	[main]	java.lang.ArithmeticException: / by zero
+INFO	2021-08-03 19:13:51,138	0	loggerfile.FileLog	[main]	This is the log File
+WARN	2021-08-03 19:13:51,141	3	loggerfile.FileLog	[main]	This is waring msg
+ERROR	2021-08-03 19:13:51,141	3	loggerfile.FileLog	[main]	This is error msg
+DEBUG	2021-08-03 19:13:51,141	3	loggerfile.FileLog	[main]	debug msg
+FATAL	2021-08-03 19:13:51,141	3	loggerfile.FileLog	[main]	fatal messge
+INFO	2021-08-03 19:13:51,141	3	loggerfile.FileLog	[main]	Addition:30
+INFO	2021-08-03 19:13:51,142	4	loggerfile.FileLog	[main]	java.lang.ArithmeticException: / by zero

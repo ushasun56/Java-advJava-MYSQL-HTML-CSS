@@ -1,0 +1,5 @@
+id,name,age,marks
+1,nikita,22,75
+2,soham,20,70
+3,swati,27,66
+4,smita,24,77
